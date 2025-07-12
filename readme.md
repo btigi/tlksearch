@@ -2,6 +2,8 @@
 
 tlksearch is a command line application to search for strings in Infinity Engine TLK files.
 
+![screenshot showing output](resources/screenshot.png)
+
 ## Download
 
 Compiled downloads are not available.
