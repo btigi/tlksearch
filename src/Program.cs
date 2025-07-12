@@ -3,8 +3,7 @@ using ii.InfinityEngine.Readers;
 using System.Drawing;
 
 var config = new ConfigurationBuilder()
-    .SetBasePath(Directory.GetCurrentDirectory())
-    .AddJsonFile("appsettings.json", optional: false)
+    .AddJsonFile("tlksearch.json", optional: false)
     .Build();
 
 if (args.Length == 0)
@@ -16,11 +15,11 @@ if (args.Length == 0)
 var directory = config["directory"] ?? string.Empty;
 if (!Path.IsPathRooted(directory))
 {
-    directory = Path.Combine(Directory.GetCurrentDirectory(), directory);
+    directory = Path.Combine(System.AppContext.BaseDirectory, directory);
 }
 if (!Directory.Exists(directory))
 {
-    Console.WriteLine($"Directory '{directory}' does not exist.");
+    Console.WriteLine($"Directory '{directory}' does not exist!");
     return;
 }
 

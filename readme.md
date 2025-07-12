@@ -35,9 +35,9 @@ Usage examples:
 
 ## Configuration
 
-tlksearch will search all TLK files in the directory configuration as the `directory` setting in appsettings.json. It's intended to place a copy of the TLK from each game, renamed after the source game, in a single directory.
+tlksearch will search all TLK files in the directory configuration as the `directory` setting in tlksearch.json. It's intended to place a copy of the TLK from each game, renamed after the source game, in a single directory.
 
-tlksearch output is colourised to allow easier visual parsing. The colours can be customised in the appsettings.json file.
+tlksearch output is colourised to allow easier visual parsing. The colours can be customised in the tlksearch.json file.
 
 ## Licencing
 
