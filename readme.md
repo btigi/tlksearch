@@ -6,7 +6,7 @@ tlksearch is a command line application to search for strings in Infinity Engine
 
 ## Download
 
-Compiled downloads are not available.
+Downloaded are available on the [github releases page](https://github.com/btigi/tlksearch/releases/latest).
 
 ## Compiling
 
